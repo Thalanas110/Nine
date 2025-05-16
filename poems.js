@@ -1,85 +1,85 @@
 class Poem {
-  constructor(id, title, author, text) {
-    this.id = id;
-    this.title = title;
-    this.author = author;
-    this.text = text;
-  }
+    constructor(id, title, author, text) {
+      this.id = id;
+      this.title = title;
+      this.author = author;
+      this.text = text;
+    }
 }
 
 const poems = [
-  {
-    id: 1,
-    title: "Whispers of Winter",
-    author: "Emilia Frost",
-    text: "Silent snow descends at dusk,\nCovering earth in crystal hush.\nBreath suspends in frozen air,\nWhite blanket draped without a care.\n\nFootprints vanish, time stands still,\nAs darkness climbs the distant hill.\nIn winter's grasp, the world now sleeps,\nWhile memory of autumn weeps."
-  },
-  {
-    id: 2,
-    title: "Snow-Bound Heart",
-    author: "Marcus Winter",
-    text: "These frosted windows frame my days,\nAs winter's touch now longer stays.\nI watch the snowflakes dance and twirl,\nEach crystal perfect as they swirl.\n\nMy breath creates small clouds of white,\nThat dissipate from morning light.\nThe silence weighs like heavy snow,\nIn absence of your voice I know."
-  },
-  {
-    id: 3,
-    title: "December's Memory",
-    author: "Olivia Reid",
-    text: "Remember when we walked the path,\nOur footsteps marking virgin snow?\nThe midnight hour, the stars above,\nThe world in silence down below.\n\nYour hand in mine, our breath entwined,\nTwo shadows cast by silver moon.\nDecember's chill could not compare\nTo warmth that left my heart too soon."
-  },
-  {
-    id: 4,
-    title: "Frozen Bench",
-    author: "Noah Blake",
-    text: "The park bench waits in solitude,\nIts wooden slats with frost adorned.\nWhere once we sat in warmer days,\nNow empty space where hearts once warmed.\n\nI wonder if you think of me,\nWhen snowflakes touch your distant face.\nOr if I've melted from your mind,\nLike winter thaw leaves not a trace."
-  },
-  {
-    id: 5,
-    title: "Snowfall at Midnight",
-    author: "Sophia Chen",
-    text: "The world transforms at midnight's hour,\nWhen snowflakes drift from skies above.\nThe city sleeps beneath the spell,\nOf winter's pure and gentle love.\n\nEach crystal brings a memory down,\nOf moments frozen in the past.\nI catch them on my outstretched hand,\nKnowing nothing here can last."
-  },
-  {
-    id: 6,
-    title: "Quiet Streets",
-    author: "Liam Winters",
-    text: "The lampposts stand like sentinels,\nAlong the snow-packed empty street.\nTheir gentle glow on powdered white,\nMakes shadows dance around my feet.\n\nNo sound disrupts this perfect peace,\nNo footprints mar the pristine ground.\nThe city sleeps beneath the snow,\nIn winter's silence, dreams abound."
-  },
-  {
-    id: 7,
-    title: "Ice Crystals",
-    author: "Eliza North",
-    text: "Like memories etched on frosted glass,\nThese patterns speak of nature's art.\nEach crystal formed with perfect grace,\nReminds me of your gentle heart.\n\nI trace the lines with fingertips,\nAnd watch as warmth dissolves their form.\nJust as your touch once melted me,\nBefore the coming of the storm."
-  },
-  {
-    id: 8,
-    title: "Winter Silence",
-    author: "Theo Morgan",
-    text: "How softly falls the winter snow,\nEach flake a whisper from the sky.\nThe world now muted, hushed and still,\nAs clouds embrace the sun goodbye.\n\nIn silence deep as ancient seas,\nI walk alone through drifted white.\nMy thoughts the only company,\nIn this cathedral built of light."
-  },
-  {
-    id: 9,
-    title: "February Dawn",
-    author: "Isabel Frost",
-    text: "The morning breaks in shades of grey,\nAs winter holds its fading reign.\nThe promise of a distant spring,\nStill buried under snow and rain.\n\nI rise to meet another day,\nMy breath a cloud that quickly fades.\nThe sunrise paints the eastern sky,\nWith hopeful pinks and gentle shades."
-  },
-  {
-    id: 10,
-    title: "Snow Angels",
-    author: "Mason Lee",
-    text: "We fell like children to the ground,\nOur laughter rising to the stars.\nWith arms outstretched in frozen joy,\nWe left our marks, now yours and ours.\n\nTwo angels pressed in virgin snow,\nTheir wings spread wide as if in flight.\nA moment captured, soon to melt,\nWhen morning brings its warming light."
-  },
-  {
-    id: 11,
-    title: "Frost Patterns",
-    author: "Amelia Wright",
-    text: "The window bears your artistry,\nIntricate patterns etched in frost.\nEach crystal branch, each icy fern,\nSpeaks of the warmth that we have lost.\n\nI trace the patterns with my gaze,\nThese temporary works of art.\nBy noon they'll fade from warming sun,\nJust as you've faded from my heart."
-  },
-  {
-    id: 12,
-    title: "Winter's Promise",
-    author: "James River",
-    text: "The shortest day, the longest night,\nWinter solstice marks the turn.\nThough darkness seems to dominate,\nThe sun's return we soon discern.\n\nThis season teaches patience well,\nAs life retreats beneath the snow.\nIn dormant seeds and sleeping trees,\nSpring waits its time, though none yet know."
-  }
+    {
+      id: 1,
+      title: "When We First Met",
+      author: "Ian Lawrence",
+      text: "The world grew quiet when you came,\nAs if it whispered out your name.\nThe air stood still, my heart took flight,\nIn that soft and golden light.\n\nYour eyes met mine, a spark, a start,\nA ripple danced across my heart.\nTime slowed down, I held my breath,\nAfraid to wake what beauty left.\n\nYour laugh—a melody so sweet,\nMade my pulse skip and then repeat.\nYour presence wrapped me in a glow,\nThat only heaven’s touch could know.\n\nYou smiled, and stars fell from the skies,\nI saw the future in your eyes.\nI never thought I'd feel this way,\nBut now I hope you’ll always stay.\n\nFrom that moment, truth I knew,\nMy world began and ends with you.\nIt all began, our love, our thread,\nThe moment when we first had met."
+    },
+    {
+      id: 2,
+      title: "Ganda Mo'y Walang Hanggan",
+      author: "Ian Lawrence",
+      text: "Ang iyong ganda'y sadyang kakaiba,\nParang tala sa gabi't madilim na tala.\nSa bawat ngiti'y liwanag ang dulot,\nSa puso kong dati'y puno ng lungkot.\n\nPara kang awit na malambing sa tenga,\nGanda mong taglay ay di kayang ipinta.\nTulad ng huling awit ng 'Beautiful in White',\nAng pagtingin ko'y wagas, tapat, at tunay.\n\nSa suot mong puti, ako'y napatitig,\nWari'y isang anghel na sa lupa'y bumalik.\nDi kailangan ng korona o palamuti,\nPagkat ganda mo'y likas, walang kapantay sa daigdig.\n\nSa bawat hakbang mo, mundo'y humihinto,\nAng hangin ay tila sumasabay sa iyo.\nAng aking damdamin ay di mapigil,\nSa ganda mong walang kahambing, di matitinag, di matitinag.\n\nKaya’t habang ako’y nabubuhay sa daigdig,\nLaging ikaw ang ganda sa aking panaginip.\nWalang ibang gusto kundi ika’y mapangasawa,\nSa puting kasuotan, habangbuhay kitang makakasama."
+    },
+    {
+      id: 3,
+      title: "I Miss Youu Soo Much",
+      author: "Ian Lawrence",
+      text: "The nights are cold without your touch,\nI ache because I miss you much.\nYour laugh, your scent, your gentle face,\nNo one else could take your place.\n\nThe pillow knows my silent cries,\nYour name still whispered through the skies.\nEach day feels like a ghostly maze,\nWhere light is lost in heavy haze.\n\nI count the hours, then count again,\nA prisoner of aching pain.\nYour photo brings a fleeting cheer,\nBut oh, how much I want you near.\n\nI miss your warmth, your sweet embrace,\nThe way you made my heart keep pace.\nThe little talks, the long goodnights,\nNow only echoes in the night.\n\nSo till we meet and time is kind,\nI'll hold you deep inside my mind.\nI miss youu soo much—too true,\nEvery second, I long for you."
+    },
+    {
+      id: 4,
+      title: "Sana'y Makita Ka Na Muli",
+      author: "Ian Lawrence",
+      text: "Sa bawat araw na lumilipas,\nIkaw ang tanong sa bawat oras.\nLaging laman ng aking panaginip,\nSana'y makita kang muli sa isang saglit.\n\nHindi na sapat ang litrato mong tinititigan,\nNi ang mga alaala nating masdan.\nAng puso ko'y nag-aalab sa pananabik,\nSa iyong ngiti't haplos, ako'y nananabik.\n\nDumarating ang gabi, puso'y nangungulila,\nSa mga mata mong kay lambing tumitig sa akin sinta.\nAng oras tila mabagal kung wala ka,\nAt bawat segundo, tila isang tala.\n\nSana'y bumalik na ang araw ng pagyakap,\nMga titig mong kay init, akin nang malaplap.\nDi ko na kayang humaba pa ang paghihintay,\nIkaw ang nais kong makasama sa bawat araw.\n\nSana'y makita ka na muli, mahal kong giliw,\nUpang muling damhin ang tamis ng iyong aliw.\nPagkat sa piling mo'y payapa ang lahat,\nAt sa muling pagkikita, doon tayo'y liligaya nang sapat."
+    },
+    {
+      id: 5,
+      title: "A Future Together",
+      author: "Ian Lawrence",
+      text: "I dream of mornings by your side,\nOf coffee shared, of time and tide.\nA home of love where peace resides,\nAnd laughter echoes far and wide.\n\nA garden where our children play,\nA porch where we can watch the day.\nWith wrinkled hands, still intertwined,\nTwo hearts that time could not unbind.\n\nWe'll build a life not just of gold,\nBut one with stories to be told.\nThrough storms and sunshine, loss and gain,\nTogether, we will dance through pain.\n\nYour dreams, my love, will be my map,\nAnd mine, you'll guard within your clasp.\nTogether, not just hand in hand,\nBut soul with soul, across the land.\n\nSo here I stand, in hope and prayer,\nFor all our days and love to share.\nA future where we both will be,\nForevermore, just you and me."
+    },
+    {
+      id: 6,
+      title: "Sa Gabi ng Camping",
+      author: "Ian Lawrence",
+      text: "Sa ilalim ng mga bituin, tayo'y magkatabi,\nSa init ng bonfire, puso'y mapayapa't mithi.\nAng gabi'y saksi sa ating mga tawa,\nHabang ang lamig ay di natin alintana.\n\nMay tinig ng kuliglig, huni ng gubat,\nHabang ikaw ay yakap ko sa gitna ng dilim na tapat.\nAng ating mga mata'y nagtagpo sa liwanag,\nWaring walang ibang mundo kundi ating galak.\n\nHabang binubulong ko ang pangako't ligaya,\nAng puso ko'y tumitibok para lang sa 'yo, sinta.\nAng bawat hinga mo'y musika sa akin,\nSa gabi ng camping, damhin mo ang hangin.\n\nAng oras ay tila huminto sa ating tabi,\nHabang sabay nating minamasdan ang langit na abot-tanaw.\nKahit wala tayong luho o magarang tahanan,\nSapat na ang yakap mo't ang init ng ating pagmamahalan.\n\nKaya't sana'y marami pang gabing ganito,\nNa tayo'y magkasama sa ilalim ng mga bituin at buwan.\nAng gabi'y di na nakakatakot kapag may kasama ka,\nSa gabi ng camping, ikaw ang tahanan ko talaga."
+    },
+    {
+      id: 7,
+      title: "Challenges but Together",
+      author: "Ian Lawrence",
+      text: "The storms may rage and skies may fall,\nBut still we stand through it all.\nWhen winds arise to shake our core,\nWe hold each other, stronger than before.\n\nThe path ahead may twist and turn,\nAnd hearts at times may ache and burn.\nYet hand in hand, we fight, we try,\nWe wipe each tear, we never say goodbye.\n\nWe've cried in silence, laughed in pain,\nBut from the ashes, we love again.\nFor every trial makes us true,\nEach one survived—because of you.\n\nWhen doubt arrives like evening rain,\nWe shelter under love's refrain.\nTogether, nothing breaks our stride,\nYou are my strength, my heart, my guide.\n\nSo let the world throw what it may,\nWe'll face it all, come night or day.\nFor battles come and battles go,\nBut love remains—the flame we know."
+    },
+    {
+      id: 8,
+      title: "Ang Lambing ng Iyong Labi",
+      author: "Ian Lawrence",
+      text: "Ang labi mong kay lambing dumikit sa akin,\nTila apoy na di nasasaktan kundi pinapainit ang damdamin.\nSa bawat halik mong puno ng pag-ibig,\nAng mundo ko'y tila lumilipad sa langit.\n\nDi ko malimutan ang unang dampi,\nParang himig na sa puso'y umaawit.\nAng tibok ng dibdib ko'y bumibilis,\nSa bawat halik mong kay tamis.\n\nAng gabi'y lumalalim ngunit di ako natatakot,\nPagkat ang mga labi mo'y aking sagot.\nLahat ng tanong ay nawawala,\nKapag yakap ko'y may halik mong kasama.\n\nSa katahimikan, ang labi mo'y bulong,\nNa nagsasabing ako'y di mo iiwan kailanman.\nTila sining ang bawat galaw ng labi mo,\nNa nagpipinta ng pag-ibig sa puso ko.\n\nO, sana'y di matapos ang sandaling ito,\nNa ang lambing ng iyong labi'y akin pang matikman.\nPagkat sa isang halik mo pa lang,\nAlam kong pag-ibig natin ay tunay at wagas."
+    },
+    {
+      id: 9,
+      title: "Cuddles With Youu",
+      author: "Ian Lawrence",
+      text: "Wrapped in your arms, the world fades away,\nLike stars that sleep till break of day.\nYour heartbeat hums a lullaby,\nAs time drifts by with a gentle sigh.\n\nThe warmth of you against my chest,\nMakes every worry come to rest.\nEach cuddle is a sacred prayer,\nThat life is better when you're there.\n\nNo fancy words, no grand parade,\nJust us beneath a blanket laid.\nYour fingers tangled into mine,\nLike ivy vines that love to climb.\n\nThe rain can fall, the winds may blow,\nBut in your arms, I’m safe, I know.\nFor love is found in simple grace,\nIn every cuddle, in your embrace.\n\nSo let the night be long and true,\nAs long as I’m curled up with youu.\nIn cuddles, love becomes so clear—\nForever's found whenever you're near."
+    },
+    {
+      id: 10,
+      title: "Sapat Ka Na",
+      author: "Ian Lawrence",
+      text: "Hindi mo kailangang maging perpekto,\nPara sa 'kin, ikaw na ang mundo.\nSa bawat pagkukulang mong nakikita,\nAy sagot ng puso kong laging umaasa.\n\nSapat ka na sa isang tulad ko,\nNa sa bawat titig mo'y kumpleto na ang mundo.\nHindi ko hanap ang yaman o karangyaan,\nAng kailangan ko lang ay ikaw na tapat at tunay.\n\nSa bawat galaw, damhin mo sana,\nAng pagmamahal na hindi ka iiwan sa gitna ng problema.\nSa iyo'y walang kulang, walang sobra,\nPag-ibig mo'y sapat na, higit pa sa inaakala.\n\nWalang ibang nais kundi ikaw lang,\nAng yakap mo'y tahanan sa gabing walang ilaw.\nKahit ang mundo'y baligtarin pa,\nAko'y masaya basta't ikaw ay kasama.\n\nSapat ka na—ikaw lang, wala nang iba,\nTulad ng araw sa langit, ikaw ang liwanag sa aking gabi.\nMahal kita sa buong puso ko,\nAt palaging ikaw lang ang gusto kong makasama sa dulo."
+    },
+    {
+      id: 11,
+      title: "On The Altar",
+      author: "Ian Lawrence",
+      text: "The aisle is long, the crowd is still,\nMy heart obeys a higher will.\nI see you there, in heaven’s light,\nA vision pure, a dream so right.\n\nEach step I take, your gaze meets mine,\nA silent vow beyond all time.\nThe altar waits, our hands unite,\nIn sacred fire, love takes flight.\n\nThe priest begins, the angels cheer,\nThe past fades out, the now is here.\nI speak your name, my voice won't shake,\nFor every word is truth I make.\n\nWith ring and vow, I give my soul,\nTo walk with you as seasons roll.\nThrough thick and thin, through rise and fall,\nTo choose you still, through it all.\n\nAnd when they say “You may now kiss,”\nMy heart explodes in timeless bliss.\nFor there before our friends and sky,\nWe sealed a love that cannot die."
+    },
+    {
+      id: 12,
+      title: "Palangga Taka",
+      author: "Ian Lawrence",
+      text: "Sa kada adlaw nga ikaw ang akon huna-huna,\nNagapaniklop ang langit, nagahilum ang duta.\nAng tingog mo, kaanindot pamatian,\nPalangga taka—tunay kag wala sang katumbas nga kahulugan.\n\nBiskan layo ka, ang buot ko ara sa imo,\nBiskan wala ka, ginapanumdum ko gihapon ang aton duo.\nSa mata mo, nakita ko ang kadalag-an,\nSa dughan ko, ikaw ang akon kalinungan.\n\nLipay ako bisan sa dyutay nga mga oras,\nNga makaupod ka bisan sa handum lang nga bukas.\nIndi ko man maambalan sa tagsa ka pulong,\nPero palangga taka—wala na 'ko sang iban pa nga ginahandong.\n\nSa imo ako nakita sang tinud-anay nga gugma,\nIsa ka ka regalo halin sa Ginoo nga wala sang kapantay.\nAng mga halok mo, ang pagpamati mo,\nNagahatag kabuhi sa akon adlaw nga maluya.\n\nBasta’t hibalu-a, bisan ano man matabo,\nAkon gid ikaw, kag indi 'ni mag-iba sang imo pagkahamtang.\nPalangga taka—sa diin ka man magkadto,\nAng gugma ko para sa imo, indi gid magpawong."
+    }
 ];
 
 export default poems;

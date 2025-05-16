@@ -74,7 +74,7 @@ class PoemCard {
       card.appendChild(contentContainer);
 
       return card;
-  }
+    }
 
     formatPoemText(text) {
         // Split the poem by stanzas (double newlines)
@@ -106,25 +106,37 @@ class Header {
     }
 
     render(props) {
-        const header = document.createElement('header');
-        header.className = 'header';
+        try {
+            const header = document.createElement('header');
+            header.className = 'header';
 
-        const container = document.createElement('div');
-        container.className = 'container';
+            const container = document.createElement('div');
+            container.className = 'container';
 
-        const title = document.createElement('h1');
-        title.className = 'header__title';
-        title.textContent = props.title;
+            const title = document.createElement('h1');
+            title.className = 'header__title';
+            title.textContent = props.title;
 
-        const subtitle = document.createElement('p');
-        subtitle.className = 'header__subtitle';
-        subtitle.textContent = props.subtitle;
+            const subtitle = document.createElement('p');
+            subtitle.className = 'header__subtitle';
+            subtitle.textContent = props.subtitle;
 
-        container.appendChild(title);
-        container.appendChild(subtitle);
-        header.appendChild(container);
+            container.appendChild(title);
+            container.appendChild(subtitle);
+            header.appendChild(container);
 
-        return header;
+            return header;
+        } 
+        catch (error) {
+            console.error('Error creating header:', error);
+            
+            // fallback header
+            const fallbackHeader = document.createElement('header');
+            fallbackHeader.className = 'header header--fallback';
+            fallbackHeader.innerHTML = '<div class="container"><h1>Poetry Collection</h1></div>';
+            
+            return fallbackHeader;
+        }
     }
 }
 
@@ -150,88 +162,88 @@ class ControlPanel {
         searchInput.addEventListener('input', (e) => {
           const target = e.target;
           props.onSearch(target.value.trim());
-      });
+        });
 
-      const searchIcon = document.createElement('i');
-      searchIcon.className = 'fas fa-search search-icon';
+        const searchIcon = document.createElement('i');
+        searchIcon.className = 'fas fa-search search-icon';
 
-      searchContainer.appendChild(searchInput);
-      searchContainer.appendChild(searchIcon);
+        searchContainer.appendChild(searchInput);
+        searchContainer.appendChild(searchIcon);
 
-      // Create controls container
-      const controls = document.createElement('div');
-      controls.className = 'controls';
+        // Create controls container
+        const controls = document.createElement('div');
+        controls.className = 'controls';
 
-      // Create sort container
-      const sortContainer = document.createElement('div');
-      sortContainer.className = 'sort-container';
+        // Create sort container
+        const sortContainer = document.createElement('div');
+        sortContainer.className = 'sort-container';
 
-      const sortSelect = document.createElement('select');
-      sortSelect.className = 'sort-select';
-      sortSelect.id = 'sort-select';
-      sortSelect.addEventListener('change', (e) => {
-        const target = e.target;
-        props.onSort(target.value);
-      });
+        const sortSelect = document.createElement('select');
+        sortSelect.className = 'sort-select';
+        sortSelect.id = 'sort-select';
+        sortSelect.addEventListener('change', (e) => {
+            const target = e.target;
+            props.onSort(target.value);
+        });
 
-      const sortOptions = [
-          { value: 'default', text: 'Sort By' },
-          { value: 'title-asc', text: 'Title (A-Z)' },
-          { value: 'title-desc', text: 'Title (Z-A)' },
-          { value: 'author-asc', text: 'Author (A-Z)' },
-          { value: 'author-desc', text: 'Author (Z-A)' }
-      ];
+        const sortOptions = [
+            { value: 'default', text: 'Sort By' },
+            { value: 'title-asc', text: 'Title (A-Z)' },
+            { value: 'title-desc', text: 'Title (Z-A)' },
+            { value: 'author-asc', text: 'Author (A-Z)' },
+            { value: 'author-desc', text: 'Author (Z-A)' }
+        ];
 
-      sortOptions.forEach(option => {
-          const optionElement = document.createElement('option');
-          optionElement.value = option.value;
-          optionElement.textContent = option.text;
-          sortSelect.appendChild(optionElement);
-      });
+        sortOptions.forEach(option => {
+            const optionElement = document.createElement('option');
+            optionElement.value = option.value;
+            optionElement.textContent = option.text;
+            sortSelect.appendChild(optionElement);
+        });
 
-      const sortIcon = document.createElement('i');
-      sortIcon.className = 'fas fa-chevron-down sort-icon';
+        const sortIcon = document.createElement('i');
+        sortIcon.className = 'fas fa-chevron-down sort-icon';
 
-      sortContainer.appendChild(sortSelect);
-      sortContainer.appendChild(sortIcon);
+        sortContainer.appendChild(sortSelect);
+        sortContainer.appendChild(sortIcon);
 
-      // Create theme toggle button
-      const themeToggle = document.createElement('button');
-      themeToggle.className = 'theme-toggle';
-      themeToggle.id = 'theme-toggle';
-      themeToggle.setAttribute('aria-label', 'Toggle dark mode');
-      themeToggle.addEventListener('click', props.onToggleTheme);
+        // Create theme toggle button
+        const themeToggle = document.createElement('button');
+        themeToggle.className = 'theme-toggle';
+        themeToggle.id = 'theme-toggle';
+        themeToggle.setAttribute('aria-label', 'Toggle dark mode');
+        themeToggle.addEventListener('click', props.onToggleTheme);
 
-      // Create theme icons
-      const moonIcon = document.createElement('i');
-      moonIcon.className = 'fas fa-moon';
-      moonIcon.id = 'moon-icon';
+        // Create theme icons
+        const moonIcon = document.createElement('i');
+        moonIcon.className = 'fas fa-moon';
+        moonIcon.id = 'moon-icon';
 
-      const sunIcon = document.createElement('i');
-      sunIcon.className = 'fas fa-sun';
-      sunIcon.id = 'sun-icon';
-      sunIcon.style.display = 'none';
+        const sunIcon = document.createElement('i');
+        sunIcon.className = 'fas fa-sun';
+        sunIcon.id = 'sun-icon';
+        sunIcon.style.display = 'none';
 
-      themeToggle.appendChild(moonIcon);
-      themeToggle.appendChild(sunIcon);
+        themeToggle.appendChild(moonIcon);
+        themeToggle.appendChild(sunIcon);
 
-      // Append elements
-      controls.appendChild(sortContainer);
-      controls.appendChild(themeToggle);
-      
-      controlPanel.appendChild(searchContainer);
-      controlPanel.appendChild(controls);
+        // Append elements
+        controls.appendChild(sortContainer);
+        controls.appendChild(themeToggle);
+        
+        controlPanel.appendChild(searchContainer);
+        controlPanel.appendChild(controls);
 
-      return controlPanel;
+        return controlPanel;
     }
-  }
+}
 
-  class Footer {
-      constructor() {
+class Footer {
+    constructor() {
         this.element = this.render();
-      }
+    }
 
-      render() {
+    render() {
         const footer = document.createElement('footer');
         footer.className = 'footer';
 

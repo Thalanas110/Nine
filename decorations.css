@@ -225,6 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .poem-card.expanded .poem-card__text {
   max-height: 500px;
+  overflow-y: auto;
 }
 
 .poem-card__toggle {
@@ -443,6 +444,27 @@ h1, h2, h3, h4, h5, h6 {
   .footer__social {
     margin: 0;
   }
+}
+
+/* Scrollbar styling for expanded poem cards */
+.poem-card.expanded .poem-card__text::-webkit-scrollbar {
+  width: 8px;
+}
+
+.poem-card.expanded .poem-card__text::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.poem-card.expanded .poem-card__text::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 4px;
+  border: 2px solid var(--bg-secondary);
+}
+
+.poem-card.expanded .poem-card__text {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-secondary);
 }
 
 @media (min-width: 1024px) {
