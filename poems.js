@@ -15,10 +15,10 @@ const poems = [
       text: "The world grew quiet when you came,\nAs if it whispered out your name.\nThe air stood still, my heart took flight,\nIn that soft and golden light.\n\nYour eyes met mine, a spark, a start,\nA ripple danced across my heart.\nTime slowed down, I held my breath,\nAfraid to wake what beauty left.\n\nYour laugh—a melody so sweet,\nMade my pulse skip and then repeat.\nYour presence wrapped me in a glow,\nThat only heaven’s touch could know.\n\nYou smiled, and stars fell from the skies,\nI saw the future in your eyes.\nI never thought I'd feel this way,\nBut now I hope you’ll always stay.\n\nFrom that moment, truth I knew,\nMy world began and ends with you.\nIt all began, our love, our thread,\nThe moment when we first had met."
     },
     {
-      id: 2,
-      title: "Ganda Mo'y Walang Hanggan",
-      author: "Ian Lawrence",
-      text: "Ang iyong ganda'y sadyang kakaiba,\nParang tala sa gabi't madilim na tala.\nSa bawat ngiti'y liwanag ang dulot,\nSa puso kong dati'y puno ng lungkot.\n\nPara kang awit na malambing sa tenga,\nGanda mong taglay ay di kayang ipinta.\nTulad ng huling awit ng 'Beautiful in White',\nAng pagtingin ko'y wagas, tapat, at tunay.\n\nSa suot mong puti, ako'y napatitig,\nWari'y isang anghel na sa lupa'y bumalik.\nDi kailangan ng korona o palamuti,\nPagkat ganda mo'y likas, walang kapantay sa daigdig.\n\nSa bawat hakbang mo, mundo'y humihinto,\nAng hangin ay tila sumasabay sa iyo.\nAng aking damdamin ay di mapigil,\nSa ganda mong walang kahambing, di matitinag, di matitinag.\n\nKaya’t habang ako’y nabubuhay sa daigdig,\nLaging ikaw ang ganda sa aking panaginip.\nWalang ibang gusto kundi ika’y mapangasawa,\nSa puting kasuotan, habangbuhay kitang makakasama."
+      "id": 2,
+      "title": "Sa Ilalim ng Banayad na Buwan",
+      "author": "Ian Lawrence",
+      "text": "Tahimik ang gabi’t kalangitan,\nMay lihim sa hangin na ‘di mabigyan ng ngalan.\nKislap ng bituin, tila kumikindat,\nHabang pinagmamasdan ka mula sa ‘di kalayuan.\nMay musika sa pagitan ng ating katahimikan.\n\nAng bawat galaw mo’y isang pintig,\nSa pusong matagal nang payapa’t tahimik.\nHindi mo kailangang magsalita pa,\nSapat na ang presensya mo sa bawat gising.\nKahit anino mo’y tila panaginip.\n\nSa bawat hakbang mong hindi sinasadya,\nParang may alon sa damdaming walang takda.\nHindi ito bulaklak na inaalay,\nKundi bugso ng pagkamangha na ‘di kayang ipaliwanag.\nPilit ikinukubli sa pagitan ng mga tula.\n\n‘Pag ikaw ay nariyan, tila bumabagal ang oras,\nAt ang paligid ay nawawalan ng lakas.\nNgunit ika’y nananatiling malinaw,\nParang silahis ng araw sa dapithapon.\nIsang alaala na ‘di agad malilimutan.\n\nKaya sa bawat gabing dumarating,\nInaabangan ko ang iyong tahimik na pagdating.\nHindi upang ika’y pagmasdan ng harapan,\nKundi upang maramdaman muli ang pakiramdam,\nNa sa mundong ito—may saysay ang katahimikan."
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const poems = [
     },
     {
       id: 6,
-      title: "Sa Gabi ng Camping",
+      title: "Gitna ng Kawalan",
       author: "Ian Lawrence",
       text: "Sa ilalim ng mga bituin, tayo'y magkatabi,\nSa init ng bonfire, puso'y mapayapa't mithi.\nAng gabi'y saksi sa ating mga tawa,\nHabang ang lamig ay di natin alintana.\n\nMay tinig ng kuliglig, huni ng gubat,\nHabang ikaw ay yakap ko sa gitna ng dilim na tapat.\nAng ating mga mata'y nagtagpo sa liwanag,\nWaring walang ibang mundo kundi ating galak.\n\nHabang binubulong ko ang pangako't ligaya,\nAng puso ko'y tumitibok para lang sa 'yo, sinta.\nAng bawat hinga mo'y musika sa akin,\nSa gabi ng camping, damhin mo ang hangin.\n\nAng oras ay tila huminto sa ating tabi,\nHabang sabay nating minamasdan ang langit na abot-tanaw.\nKahit wala tayong luho o magarang tahanan,\nSapat na ang yakap mo't ang init ng ating pagmamahalan.\n\nKaya't sana'y marami pang gabing ganito,\nNa tayo'y magkasama sa ilalim ng mga bituin at buwan.\nAng gabi'y di na nakakatakot kapag may kasama ka,\nSa gabi ng camping, ikaw ang tahanan ko talaga."
     },
