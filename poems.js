@@ -12,7 +12,7 @@ const poems = [
     id: 1,
     title: "Whispers of Winter",
     author: "Emilia Frost",
-    text: "Silent snow descends at dusk,\nCovering earth in crystal hush.\nBreath suspends in frozen air,\nWhite blanket draped without a care.\n\n\n\nFootprints vanish, time stands still,\nAs darkness climbs the distant hill.\nIn winter's grasp, the world now sleeps,\nWhile memory of autumn weeps."
+    text: "Silent snow descends at dusk,\nCovering earth in crystal hush.\nBreath suspends in frozen air,\nWhite blanket draped without a care.\n\nFootprints vanish, time stands still,\nAs darkness climbs the distant hill.\nIn winter's grasp, the world now sleeps,\nWhile memory of autumn weeps."
   },
   {
     id: 2,

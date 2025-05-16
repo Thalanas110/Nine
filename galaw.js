@@ -1,4 +1,4 @@
-import poems from 'poems.js';
+import poems from './poems.js';
 
 // Utility Functions
 function debounce(func, wait) {

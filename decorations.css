@@ -54,8 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header styles */
 .header {
-  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.4)), 
-                    url('peakpx\ \(1\).jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.4)), url('peakpx\ \(1\).jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -377,6 +376,28 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.7;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 1.5rem;
+}
+
+[data-theme="dark"] .footer {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .footer__social-link {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .footer__social-link:hover {
+  color: var(--accent);
+}
+
+[data-theme="dark"] .footer__subtitle {
+  opacity: 0.7;
+}
+
+[data-theme="dark"] .footer__copyright {
+  opacity: 0.5;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Media queries */
