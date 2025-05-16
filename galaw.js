@@ -273,9 +273,9 @@ class Footer {
         socialLinks.className = 'footer__social';
 
         const socialIcons = [
-            { icon: 'twitter', url: '#' },
-            { icon: 'instagram', url: '#' },
-            { icon: 'pinterest', url: '#' }
+            { icon: 'facebook', url: 'https://www.facebook.com/future.airline.captain' },
+            { icon: 'instagram', url: 'https://www.instagram.com/adriaan.amd/' },
+            { icon: 'github', url: 'https://github.com/Thalanas110/Nine' }
         ];
 
         socialIcons.forEach(social => {
