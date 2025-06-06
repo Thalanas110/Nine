@@ -3,11 +3,13 @@
 |----------------------|-----------------------------|-----------------------------------|
 | **Full Name**        | Adriaan M. Dimate           | Mary Chan P. Soberano             |
 | **Religion**         | Born Again Christian        | Born Again Christian              |
+| **Church Ministry**  | Media Team Lead             | Musician                          |
 | **Age**              | 20                          | 18                                |
 | **Birthdate**        | September 26, 2004          | September 17, 2006                |
 | **Program Enrolled** | BS Computer Science         | BSEd-English                      |
 | **Year Level**       | 2nd year                    | 1st year                          |
 | **City Address**     | Olongapo City, Zambales     | La Carlota, Negros Occidental     |
+
 
 
 
