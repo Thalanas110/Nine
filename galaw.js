@@ -44,7 +44,7 @@ class PoemCard {
         // Create poem title
         const title = document.createElement('h2');
         title.className = 'poem-card__title';
-        title.textContent = this.poem.title;
+            title.textContent = 'Lorem Ipsum';
 
         // Create poem author
         const author = document.createElement('p');
@@ -115,11 +115,11 @@ class Header {
 
             const title = document.createElement('h1');
             title.className = 'header__title';
-            title.textContent = props.title;
+                title.textContent = 'Lorem Ipsum';
 
             const subtitle = document.createElement('p');
             subtitle.className = 'header__subtitle';
-            subtitle.textContent = props.subtitle;
+                subtitle.textContent = 'Lorem Ipsum';
 
             container.appendChild(title);
             container.appendChild(subtitle);
@@ -259,11 +259,11 @@ class Footer {
 
         const title = document.createElement('h2');
         title.className = 'footer__title';
-        title.textContent = 'Copyright © 2025 Ian Lawrence';
+        title.textContent = 'Lorem Ipsum';
 
         const subtitle = document.createElement('p');
         subtitle.className = 'footer__subtitle';
-        subtitle.textContent = 'All rights reserved.';
+        subtitle.textContent = 'Lorem Ipsum';
 
         info.appendChild(title);
         info.appendChild(subtitle);
@@ -294,7 +294,7 @@ class Footer {
         // copyright section footer
         const copyright = document.createElement('div');
         copyright.className = 'footer__copyright';
-        copyright.textContent = '© 2025 Ian Lawrence. All rights reserved.';
+        copyright.textContent = 'Lorem Ipsum';
 
         // appending all sections
         content.appendChild(info);
@@ -468,8 +468,8 @@ class App {
 
         // Add header
         const header = new Header({
-        title: 'For youuu, my palanggaaa <33',
-        subtitle: 'Click Read More to expand the poem.'
+        title: 'Lorem Ipsum',
+        subtitle: 'Lorem Ipsum'
         }).element;
 
         // Create control panel
@@ -489,8 +489,8 @@ class App {
         this.noResults.className = 'no-results';
         this.noResults.innerHTML = `
         <div class="no-results__icon"><i class="fas fa-search"></i></div>
-        <h3 class="no-results__title">No poems found</h3>
-        <p class="no-results__message">Try adjusting your search term</p>
+        <h3 class="no-results__title">Lorem Ipsum</h3>
+        <p class="no-results__message">Lorem Ipsum</p>
         `;
 
         // Create poem container
